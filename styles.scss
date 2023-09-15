@@ -1,0 +1,81 @@
+.container {
+	width: 800px;
+	position: relative;
+	margin: 0 auto;
+}
+
+.content {
+	height: 300vh;
+	width: 800px;
+	background-color: #A29989;
+	margin: 0 auto;
+}
+
+h3 {
+	font-size: 2em;
+	color: #212357;
+	text-align: center;
+}
+
+#toTop {
+	position: fixed;
+	right: 20px;
+	bottom: 40px;
+	border: none;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 60px;
+	height: 50px;
+	svg {
+		fill: #E8BD56;
+		path {
+			stroke: #212357;
+		}
+	}
+}
+
+
+/*#toTop {
+	position: fixed;
+	display: inline-block;
+	bottom: 30px;
+	right: 40px;
+	width: 40px;
+	height: 40px;
+	z-index: 10;
+	cursor: pointer;
+	text-align: center;
+	color: #212357;
+	border-radius: 4px;
+	background: #E8BD56;
+	box-shadow: 0 0 0 3px rgba(0,0,0,.2);
+	opacity: 0;
+	//visibility: hidden;
+  	transition: all .3s ease-in-out;
+}
+#toTop:hover {
+		background: darkgreen;
+}
+
+#toTop svg {
+	position: absolute;
+	top: 12px;
+	right: -1px;
+	fill: #212357;
+	transition: all .3s ease-in-out;
+}
+
+#toTop:hover svg {
+	cursor: pointer;
+	fill: #E8BD56;
+	transition: all .3s ease-in-out;
+}
+
+#toTop.show {
+	opacity: 1;
+	visibility: visible;
+	right: calc(2%);
+}*/
+
