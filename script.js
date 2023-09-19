@@ -1,8 +1,9 @@
+
 document.addEventListener('DOMContentLoaded', function () {
     let btn = document.querySelector('#toTop');
     window.addEventListener('scroll', function () {
-        // Если прокрутили дальше 599px, показываем кнопку
-        if (pageYOffset > 100) {
+        // Если прокрутили дальше 800px, показываем кнопку
+        if (scrollY > 800) {
             btn.classList.add('show');
             // Иначе прячем
         } else {
@@ -10,9 +11,11 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 
-    // При клике прокручиываем на самый верх
-    btn.onclick = function (click) {
-        click.preventDefault();
-        scrollTo(0, 400);
-    }
+    // При клике прокручиваем на самый верх
+	btn.addEventListener('click', function(click) {
+		click.preventDefault();
+		scrollTo(0, 0);
+	});
+
+	
 });
