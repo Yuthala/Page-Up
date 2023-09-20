@@ -14,9 +14,14 @@ document.addEventListener('DOMContentLoaded', function () {
     // При клике прокручиваем на самый верх
 	btn.addEventListener('click', function(click) {
 		click.preventDefault();
-		scrollTo(0, 0);
+		window.scrollTo({
+			top: 0,
+			behavior: "smooth"
+		});
 	});
 });
+
+	
 
 // document.querySelectorAll('a[href^="#"').forEach(link => {
 
