@@ -1,10 +1,11 @@
-#Smooth scroll up
-
-##HTML/CSS/JavaScript
+Smooth scroll up
+--
+HTML/CSS/JavaScript
+--
 
 href id="toTop" has enclosed svg icon - arrow up. Clicking this arrow will smoothly bring you to the top of the page.
 Arrow appears after you scroll 800 px down and disappears after a click.
----
+
 There are 2 "independent" eventListeners:
 firt one "listens" window.scroll, dinamically adding class="show" to <a>; 
 second - "listens" <a> click.
